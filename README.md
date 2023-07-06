@@ -2,6 +2,13 @@
 
 This is a template example of how you can create interactive react components that include CSS styling and SVG images in bitburner.
 
+# Installing
+
+1. Run `npm install` to install the required npm packages.
+2. Run `npm run build` to create the bundle file.
+3. In a seperate tab, run `npx bitburner-filesync` to start the file sync tool in the background.
+4. In bitburner, go to options, remote API, then put in the port `12525` and click "connect."
+
 # File overview
 
 ### vite.config.js
