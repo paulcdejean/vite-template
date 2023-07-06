@@ -1,0 +1,4 @@
+dist/
+NetscriptDefinitions.d.ts
+vite.config.js
+.eslintrc.cjs

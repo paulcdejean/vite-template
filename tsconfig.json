@@ -1,0 +1,28 @@
+{
+  "lib": ["esnext", "DOM", "DOM.Iterable"],
+  "include": [
+    "NetscriptDefinitions.d.ts",
+    "src/**/*"
+  ],
+  "exclude": [".eslintc.cjs"],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "importHelpers": true,
+    "strict": true,
+    "rootDir": "src/",
+    "baseUrl": "src/",
+    "outDir": "ts",
+    "allowJs": true,
+    "noEmit": true,
+    "jsx": "react",
+    "paths": {
+      "@ns": ["../NetscriptDefinitions.d.ts"]
+    }
+  }
+}
